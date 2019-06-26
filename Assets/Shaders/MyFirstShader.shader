@@ -36,7 +36,6 @@
             float2 _MyTexture;
         };
 
-
         void surf (Input IN, inout SurfaceOutput o) {
             o.Albedo = tex2D (_MyTexture, IN._MyTexture).rgb;
         }
